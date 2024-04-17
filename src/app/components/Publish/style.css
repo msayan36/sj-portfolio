@@ -1,0 +1,36 @@
+.publish-section{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #f0f2f6;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
+}
+
+.publish-section:hover{
+    transform: translateY(-5px);
+}
+
+.publish-section .author{
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.publish-section .publish-title{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #007078;
+    font-weight: bold;
+}
+
+.publish-section .link {
+    margin-top: 1rem;
+    background-color: #ffb819;
+    width: fit-content;
+    padding: 0.25rem 0.5rem;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
