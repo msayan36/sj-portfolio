@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const index = () => {
   return (
     <footer>
-        <div className="footer">
+        <div id="contact" className="footer">
             <div className="footer-txt-1">Feel Free to Contact me!</div>
             <div className="footer-txt-2">
                 <p className="bold">DR. SUSOVAN JANA</p>

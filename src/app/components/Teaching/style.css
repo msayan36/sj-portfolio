@@ -1,0 +1,73 @@
+.teaching-section{
+    margin: 5rem 0;
+}
+
+.teaching-img-cont{
+    width: 8rem;
+    height: 30rem;
+    background-color: #007078;
+}
+
+.img-teach{
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+}
+
+.teaching-hero{
+    display: flex;
+}
+
+.teaching-txt{
+    width: 40%;
+    margin-left: 30rem;
+}
+
+.teaching-txt h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.teaching-txt p{
+    color: #007078;
+    line-height: 2rem;
+}
+
+.teaching-topics{
+    width: 68%;
+    margin: 8rem auto;
+}
+
+.teaching-topics h2{
+    font-weight: 700;
+}
+
+.teaching-subjects{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.teaching-subjects ul{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    color: #007078;
+}
+
+.teaching-subjects ul li{
+    margin-top: 1rem;
+}
+
+.repo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem 0 0 2rem;
+}
+
+.repo-indi{
+    background-color: #f2f3f7;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.75);
+}

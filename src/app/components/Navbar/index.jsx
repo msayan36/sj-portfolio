@@ -10,7 +10,11 @@ const index = () => {
             <li>Professional</li>
             <li>Academics</li>
             <li>Achievements</li>
-            <li>Contact</li>
+            <li>
+              <a href="#contact">
+                Contact
+              </a>
+            </li>
         </ul>
     </nav>
   )
