@@ -86,7 +86,7 @@ const teaching = () => {
             <h2>Knowledge Repository</h2>
             <div className="repo">
                 <div className="repo-indi">
-                    <p style={{color: "#007078", fontWeight: "800", marginBottom: "10px", paddingTop:"2rem", paddingRight: "1rem", paddingLeft: "1rem", fontSize: "1.2rem"}}>Begineer's Guide to MySQL</p>
+                    <p style={{color: "#007078", fontWeight: "800", marginBottom: "10px", paddingTop:"2rem", paddingRight: "1rem", paddingLeft: "1rem", fontSize: "1.2rem"}}>Begineer&apos;s Guide to MySQL</p>
                     <div style={{cursor: "pointer", backgroundColor: "#007078", color: "#fff", width: "100%", marginTop: "2rem", display: "flex", alignItems: "center", justifyContent: "center"}}>
                         <p style={{margin: "5px auto"}}>Link</p>
                     </div>
