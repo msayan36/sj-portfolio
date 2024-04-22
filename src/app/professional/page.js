@@ -1,8 +1,48 @@
 import './style.css'
 import Image from 'next/image'
+import Link from "next/link";
+import Footer from "../components/Footer"
 
-const index = () => {
+const professional = () => {
   return (
+    <>
+    <nav className="navbar">
+        <Link href="/">
+          <h1 className="title">Susovan Jana</h1>
+        </Link>
+        <ul className="menu">
+            <li>
+              <Link href="/research">
+                Research
+              </Link>
+            </li>
+            <li>
+              <Link href="/teaching">
+                Teaching
+              </Link>
+            </li>
+            <li>
+              <Link href="/professional">
+                Professional
+              </Link>
+            </li>
+            <li>
+              <Link href="/academics">
+                Academics
+              </Link>
+            </li>
+            <li>
+              <Link href="/achievements">
+                Achievements
+              </Link>
+            </li>
+            <li>
+              <a href="#contact">
+                Contact
+              </a>
+            </li>
+        </ul>
+    </nav>
     <section className='professional-section'>
         <h1>Professional Experience</h1>
         <div className="cont">
@@ -94,7 +134,9 @@ const index = () => {
             </ul>
         </div>
     </section>
+    <Footer />
+    </>
   )
 }
 
-export default index
+export default professional

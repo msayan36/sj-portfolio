@@ -1,7 +1,47 @@
 import './style.css'
+import Link from "next/link";
+import Footer from "../components/Footer"
 
 const index = () => {
   return (
+    <>
+    <nav className="navbar">
+        <Link href="/">
+          <h1 className="title">Susovan Jana</h1>
+        </Link>
+        <ul className="menu">
+            <li>
+              <Link href="/research">
+                Research
+              </Link>
+            </li>
+            <li>
+              <Link href="/teaching">
+                Teaching
+              </Link>
+            </li>
+            <li>
+              <Link href="/professional">
+                Professional
+              </Link>
+            </li>
+            <li>
+              <Link href="/academics">
+                Academics
+              </Link>
+            </li>
+            <li>
+              <Link href="/achievements">
+                Achievements
+              </Link>
+            </li>
+            <li>
+              <a href="#contact">
+                Contact
+              </a>
+            </li>
+        </ul>
+    </nav>
     <section className='achievements-section'>
         <h1>Awards And Achievements</h1>
         <section id="awards" class="awards_achievements">
@@ -77,6 +117,8 @@ const index = () => {
           </ul>
         </section>
     </section>
+    <Footer />
+    </>
   )
 }
 
