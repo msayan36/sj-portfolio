@@ -1,11 +1,10 @@
 import './style.css'
 
-const index = ({author, title, journal}) => {
+const index = ({date, title}) => {
   return (
     <section className='publish-section'>
-        <p className='author'>{author}</p>
         <p className='publish-title'>{title}</p>
-        <p className='article'>{journal !== "" && <>In: {journal}</>}</p>
+        <p className='author'>Year: {date}</p>
         <p className='link'>Link</p>
     </section>
   )

@@ -169,6 +169,7 @@
 .teaching-subjects{
     display: flex;
     margin-bottom: 5rem;
+    width: 129%;
 }
 
 .teaching-subjects ul{

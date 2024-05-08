@@ -12,22 +12,22 @@ export default function Home() {
     <main>
       <nav className="navbar">
         <Link href="/">
-          <h1 className="title">Susovan Jana</h1>
+          <h1 className="title">Dr. Susovan Jana</h1>
         </Link>
         <ul className="menu">
-            <li>
-              <Link href="/research">
-                Research
-              </Link>
-            </li>
             <li>
               <Link href="/teaching">
                 Teaching
               </Link>
             </li>
             <li>
-              <Link href="/professional">
-                Professional
+              <Link href="/research">
+                Research
+              </Link>
+            </li>
+            <li>
+              <Link href="/experience">
+                Experience
               </Link>
             </li>
             <li>

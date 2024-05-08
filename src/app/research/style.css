@@ -72,11 +72,6 @@
     font-weight: 500;
 }
 
-.research-content-1{
-    margin: 1rem 0;
-    display: flex;
-}
-
 .research-content-1 .txt{
     width: 60%;
     margin-right: 5rem;
@@ -90,6 +85,7 @@
     font-weight: 500;
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
+    margin-right: 10rem;
 }
 
 .research-list{
@@ -111,10 +107,21 @@
     margin-bottom: 1rem;
 }
 
-.research-content-2 svg{
+.research-profile svg{
     margin-right: 1rem;
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: #007078;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left h2{
+    margin-bottom: 1rem;
 }
 
 .content-right{
@@ -345,4 +352,9 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
     font-weight: 600;
+}
+
+.research-content-1{
+    margin: 2rem 5rem;
+    display: flex;
 }

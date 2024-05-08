@@ -8,22 +8,22 @@ const teaching = () => {
     <>
     <nav className="navbar">
         <Link href="/">
-          <h1 className="title">Susovan Jana</h1>
+          <h1 className="title">Dr. Susovan Jana</h1>
         </Link>
         <ul className="menu">
-            <li>
-              <Link href="/research">
-                Research
-              </Link>
-            </li>
             <li>
               <Link href="/teaching">
                 Teaching
               </Link>
             </li>
             <li>
-              <Link href="/professional">
-                Professional
+              <Link href="/research">
+                Research
+              </Link>
+            </li>
+            <li>
+              <Link href="/experience">
+                Experience
               </Link>
             </li>
             <li>
@@ -51,38 +51,34 @@ const teaching = () => {
             </div>
             <div className="teaching-txt">
                 <h1>Teaching</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia voluptatem beatae eius, inventore ipsum alias amet quod delectus veritatis placeat aspernatur consequatur magni consequuntur optio nemo unde laudantium molestiae! Facere repudiandae, voluptas hic veritatis ipsum voluptatibus dignissimos accusamus, sint voluptatum obcaecati explicabo et placeat perferendis delectus, nihil quisquam qui.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia voluptatem beatae eius, inventore ipsum alias amet quod delectus veritatis placeat aspernatur consequatur magni consequuntur optio nemo unde laudantium molestiae! Facere repudiandae, voluptas hic veritatis ipsum voluptatibus dignissimos accusamus, sint voluptatum obcaecati explicabo et placeat perferendis delectus, nihil quisquam qui.</p>
+                <h2>Teaching Topics</h2>
+                <div className="teaching-subjects">
+                    <ul>
+                        <li>Digital Image Processing</li>
+                        <li>Data Science</li>
+                        <li>Big Data Analytics</li>
+                        <li>Machine Learning</li>
+                        <li>Database Management System</li>
+                        <li>Human Computer Interaction</li>
+                        <li>C Language</li>
+                        <li>Java</li>
+                        <li>Android Progranmming</li>
+                    </ul>
+                    <ul>
+                        <li>Data Structure & Algorithms</li>
+                        <li>Design and Analysis of Algorithm</li>
+                        <li>Operating System</li>
+                        <li>Compiler Design</li>
+                        <li>Multimedia Technology</li>
+                        <li>Computer Networks</li>
+                        <li>MATLAB</li>
+                        <li>Python</li>
+                        <li>Web Technology</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div className="teaching-topics">
-            <h2>Teaching Topics</h2>
-            <div className="teaching-subjects">
-                <ul>
-                    <li>Digital Image Processing</li>
-                    <li>Data Science</li>
-                    <li>Big Data Analytics</li>
-                    <li>Machine Learning</li>
-                    <li>Database Management System</li>
-                    <li>Human Computer Interaction</li>
-                </ul>
-                <ul>
-                    <li>C Language</li>
-                    <li>Java</li>
-                    <li>Android Progranmming</li>
-                    <li>Data Structure & Algorithms</li>
-                    <li>Design and Analysis of Algorithm</li>
-                    <li>Operating System</li>
-                </ul>
-                <ul>
-                    <li>Compiler Design</li>
-                    <li>Multimedia Technology</li>
-                    <li>Computer Networks</li>
-                    <li>MATLAB</li>
-                    <li>Python</li>
-                    <li>Web Technology</li>
-                </ul>
-            </div>
             <h2>Knowledge Repository</h2>
             <div className="repo">
                 <div className="repo-indi">

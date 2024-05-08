@@ -10,22 +10,22 @@ const Research = () => {
     <>
     <nav className="navbar">
         <Link href="/">
-          <h1 className="title">Susovan Jana</h1>
+          <h1 className="title">Dr. Susovan Jana</h1>
         </Link>
         <ul className="menu">
-            <li>
-              <Link href="/research">
-                Research
-              </Link>
-            </li>
             <li>
               <Link href="/teaching">
                 Teaching
               </Link>
             </li>
             <li>
-              <Link href="/professional">
-                Professional
+              <Link href="/research">
+                Research
+              </Link>
+            </li>
+            <li>
+              <Link href="/experience">
+                Experience
               </Link>
             </li>
             <li>
@@ -48,7 +48,6 @@ const Research = () => {
     <section className="research-section">
         <h1 className='research-head'>Research</h1>
         <div className="research-content-1">
-            <p className="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, voluptate fuga praesentium cum repudiandae perspiciatis molestiae harum recusandae blanditiis? Asperiores quisquam, sapiente reprehenderit aliquid nisi doloribus ex molestiae, explicabo quis vitae rerum placeat et quo dolorem soluta, incidunt facilis ratione consequatur quibusdam voluptate deleniti enim cumque voluptas. Dolores veniam labore tenetur excepturi neque nihil, exercitationem officiis blanditiis voluptatem aut laboriosam cumque fuga iure sequi, ex eligendi quisquam nesciunt esse temporibus distinctio explicabo rem expedita aliquam!</p>
             <div className="research-interest">
                 <h2>Research Interests</h2>
                 <ul className="research-list">
@@ -60,17 +59,19 @@ const Research = () => {
                     <li>Multimedia Information Processing</li>
                 </ul>
             </div>
+            <div className="research-profile">
+              <div className="content-left">
+                  <h2>Academic Profile</h2>
+                  <div className="research-content-icons">
+                      <FaGoogleScholar />
+                      <FaResearchgate />
+                      <FaOrcid />
+                      <SiPublons />
+                  </div>
+              </div>
+            </div>
         </div>
         <div className="research-content-2">
-            <div className="content-left">
-                <h2>Academic Publications</h2>
-                <div className="research-content-icons">
-                    <FaGoogleScholar />
-                    <FaResearchgate />
-                    <FaOrcid />
-                    <SiPublons />
-                </div>
-            </div>
             <div className="content-right">
                 <h3>Research Articles in Journals:</h3>
                 <Publish author="D. Tamili, S. Jana, and P. Bhattacharjee" title="Chromatographic method development for simultaneous determination of serotonin, melatonin, and L-tryptophan: Mass transfer modeling, chromatographic separation factors, and method prediction by artificial neural network," journal="Journal of Chemometrics. 2023;e3520" link="/" />
